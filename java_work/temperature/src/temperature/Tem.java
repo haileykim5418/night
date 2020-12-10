@@ -10,7 +10,7 @@ public class Tem {
 		
 		System.out.println(C);
 		
-		scanner ab = C;
+
 				
 		
 				
