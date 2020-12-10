@@ -1,0 +1,11 @@
+package ddaaaa;
+
+public class Daaaag {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(121);
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package if1209;
+
+import java.util.Scanner;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("--------------------------");
+		System.out.println(" 년도별 윤년 구분 프로그램v1.0  ");
+		System.out.println("--------------------------");
+		
+		Scanner s = new Scanner(System.in);
+		int first = 0;
+		System.out.print("년도 입력 : ");
+		first = s.nextInt();
+		
+	}
+
+}

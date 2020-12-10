@@ -1,0 +1,13 @@
+package inputTest;
+
+import java.util.Scanner;
+
+public class Input1 {
+
+	public static void main(String[] args) {
+		//scanner 객체(=s)생성 객체
+		Scanner s = new Scanner(System.in);
+		
+	}
+
+}

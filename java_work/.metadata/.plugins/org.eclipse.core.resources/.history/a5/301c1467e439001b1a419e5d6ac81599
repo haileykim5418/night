@@ -1,0 +1,14 @@
+package if1209;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("--------------------------");
+		System.out.println(" 년도별 윤년 구분 프로그램v1.0  ");
+		System.out.println("--------------------------");
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package inputTest;
+
+import java.util.Scanner;
+
+public class Scanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		System.out.print("면적 : ");
+		float name = s nextLine();
+		System.out.println("면적 : " + s);
+		
+	}
+
+}

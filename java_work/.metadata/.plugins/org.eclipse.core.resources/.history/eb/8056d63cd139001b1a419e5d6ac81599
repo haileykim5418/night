@@ -1,0 +1,21 @@
+package if1209;
+
+import java.util.Scanner;
+
+
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("------------------");
+		System.out.println("홀짝 판단 프로그램 v1.0");
+		System.out.println("------------------");
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+		
+	
+		}
+		
+	}
+

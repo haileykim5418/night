@@ -1,0 +1,24 @@
+package test1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String name = "홍길동";
+		int num = 100;
+		char ch = '홍';  //성
+		float num1 = 60.3f;
+		float num2 = 178.6f;
+		String name1 = "조선 한양 홍대감집";
+		
+		System.out.println(------------------);
+		System.out.println(------------------);
+		System.out.println(------------------);
+		
+		
+		
+		
+		
+	
+	}
+
+}
