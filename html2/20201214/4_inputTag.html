@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 주로 검색엔진에서 -->
+    <h1>get방식</h1>
+    <form method="get">
+        <!-- input은 닫는 태그가 없는 태그 -->
+        <!-- input택는 폼 태그 안에서 작성해야함 -->
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>post방식</h1>
+    <!-- 주로 로그인 할때 -->
+    <form method="post">
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>reset실습</h1>
+    <form method="get">
+        <input type="text" name="search">
+        <input type="submit">
+        <input type="reset" value="clear">
+        <!-- value를 ㅓㄶ으면 버튼 위의 글자가 바뀜 -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- video-js 사용하기 위해 필요한 것-->
+  <link rel="stylesheet" 
+  href="https://vjs.zencdn.net/7.2.3/video-js.css"/>
+  <script src="https://vjs.zencdn.net/7.2.3/video.js">
+  </script>
+  <!-- video-js 사용하기 위해 필요한 것-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <video src="Wildlife.mp4" controls></video>
+
+    <!-- 여러가지 확장자에 대한 대비(audio태그와 동일) -->
+
+    <video width="640" height="360" controls autoplay muted>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+
+    </video>
+
+    <video  poster="20201214/cup-5752775_1920.jpg" width="640" height="360" controls autoplay muted>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+
+    </video>
+
+    <h1>video.js 플러그인 적용 </h1>
+    <video width="640" height="360" controls
+    class="video-js" data-setup="{}">
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    <h1>유툽영상</h1>
+    <iframe width="1251" height="753" src="https://www.youtube.com/embed/nLfzH4xOVqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/31Voz1H40zI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+
+
+</html>
