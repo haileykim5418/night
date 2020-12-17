@@ -22,6 +22,7 @@ public class IF8 {
 		int eng = s.nextInt();
 		System.out.println("수학 점수 입력 : ");
 		int math = s.nextInt();
+		
 		int hap = kor + eng + math;
 		System.out.println("총점 : " + hap);
 		int ave = hap /3;
@@ -41,4 +42,6 @@ public class IF8 {
 		}
 		else { System.out.println("F학점");
 		}
+		s.close();
+		
 		}}
