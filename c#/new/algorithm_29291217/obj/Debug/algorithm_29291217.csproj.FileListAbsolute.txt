@@ -1,0 +1,7 @@
+D:\new1210\night\c#\new\algorithm_29291217\bin\Debug\algorithm_29291217.exe.config
+D:\new1210\night\c#\new\algorithm_29291217\bin\Debug\algorithm_29291217.exe
+D:\new1210\night\c#\new\algorithm_29291217\bin\Debug\algorithm_29291217.pdb
+D:\new1210\night\c#\new\algorithm_29291217\obj\Debug\algorithm_29291217.csprojAssemblyReference.cache
+D:\new1210\night\c#\new\algorithm_29291217\obj\Debug\algorithm_29291217.csproj.CoreCompileInputs.cache
+D:\new1210\night\c#\new\algorithm_29291217\obj\Debug\algorithm_29291217.exe
+D:\new1210\night\c#\new\algorithm_29291217\obj\Debug\algorithm_29291217.pdb

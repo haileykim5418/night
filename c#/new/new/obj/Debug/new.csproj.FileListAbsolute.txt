@@ -1,0 +1,7 @@
+D:\new1210\night\c#\new\new\bin\Debug\@new.exe.config
+D:\new1210\night\c#\new\new\bin\Debug\@new.exe
+D:\new1210\night\c#\new\new\bin\Debug\@new.pdb
+D:\new1210\night\c#\new\new\obj\Debug\new.csprojAssemblyReference.cache
+D:\new1210\night\c#\new\new\obj\Debug\new.csproj.CoreCompileInputs.cache
+D:\new1210\night\c#\new\new\obj\Debug\@new.exe
+D:\new1210\night\c#\new\new\obj\Debug\@new.pdb

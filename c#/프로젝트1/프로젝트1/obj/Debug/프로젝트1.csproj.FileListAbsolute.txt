@@ -1,0 +1,2 @@
+D:\new1210\night\c#\프로젝트1\프로젝트1\obj\Debug\프로젝트1.csprojAssemblyReference.cache
+D:\new1210\night\c#\프로젝트1\프로젝트1\obj\Debug\프로젝트1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\bin\Debug\wierdcsharp1.exe.config
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\bin\Debug\wierdcsharp1.exe
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\bin\Debug\wierdcsharp1.pdb
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\obj\Debug\wierdcsharp1.csproj.CoreCompileInputs.cache
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\obj\Debug\wierdcsharp1.exe
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\obj\Debug\wierdcsharp1.pdb
+D:\new1210\night\c#\wierdcsharp1\wierdcsharp1\obj\Debug\wierdcsharp1.csprojAssemblyReference.cache
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\bin\Debug\wierdcsharp1.exe.config
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\bin\Debug\wierdcsharp1.exe
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\bin\Debug\wierdcsharp1.pdb
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\obj\Debug\wierdcsharp1.csprojAssemblyReference.cache
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\obj\Debug\wierdcsharp1.csproj.CoreCompileInputs.cache
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\obj\Debug\wierdcsharp1.exe
+D:\new1210\night\c#\weirdcsharp_gahyeon\wierdcsharp1\obj\Debug\wierdcsharp1.pdb

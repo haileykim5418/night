@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wierdcsharp1", "wierdcsharp1\wierdcsharp1.csproj", "{823B26EB-D9BA-4070-A6ED-3EA1B833DFB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823B26EB-D9BA-4070-A6ED-3EA1B833DFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823B26EB-D9BA-4070-A6ED-3EA1B833DFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823B26EB-D9BA-4070-A6ED-3EA1B833DFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823B26EB-D9BA-4070-A6ED-3EA1B833DFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0EA4B87-2ED5-4036-B2A2-7E9EF3460E9C}
+	EndGlobalSection
+EndGlobal
