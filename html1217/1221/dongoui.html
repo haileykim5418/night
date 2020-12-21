@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 동위 선택자. 바로 뒤에거 선택. h1뒤에 있는 h2태그 한개를 선택
+        h1바로 뒤에 h3 그리고 그 뒤 h2 있으면 적용 안됨 */
+        h1+h2{color: red}
+
+        /* h1뒤에 있는 모든 태그들을 선택 */
+        h1~h2{background: orange}
+    </style>
+</head>
+<body>
+    <h1>랄라라라라</h1>
+    <h2>랄라</h2>
+    <h2>랄라</h2>
+    <h2>랄라</h2>
+    <h2>랄라</h2>
+</body>
+</html>

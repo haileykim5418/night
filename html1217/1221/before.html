@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* p태그가 늘어날 떄 마다 증가하는 변수 */
+            counter-increment:leelee;
+        }
+        /* 피태그 시작 전에 카운터 변수 삽입 */
+        p::before{
+            content : counter(leelee) "."
+        }
+        /* 피태그 끝에 페이지 번호 삽입 */
+        p::after{
+            content : " - " attr(data-page)"page"
+        }
+        p::first-letter
+        {
+            font-size:3em
+        }
+    </style>
+</head>
+<body>
+    <h1>로렘로렘</h1>
+    <p data-page="52">Lorem ipsum dolor sit amet.</p>
+    <p data-page="273">Lorem ipsum dolor sit amet.</p>
+    
+
+</body>
+</html>

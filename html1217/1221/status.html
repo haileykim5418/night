@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled{
+            /* 인풋 태그가 사용 가능 할 경우 */
+            background-color: aqua;
+        }
+        input:disabled{
+            /* 인풋 태그가 사용 불가능 할 경우 */
+            background-color: red;
+        }
+        input:focus
+        /* 초점이 해당 태그로 갈 때 */
+        {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>enable</h2>
+    <input>
+    <h2>disable</h2>
+    <input disabled>
+
+</body>
+</html>
