@@ -12,7 +12,7 @@ public class Test1 {
 			sum+=arr[i];
 		}
 		System.out.println("배열의 합: " + sum);
-		
+		System.out.println("배열의 평균: "+ sum/arr.length);
 		
 	}
 
