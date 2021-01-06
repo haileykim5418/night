@@ -31,7 +31,7 @@ public class Test2 {
 		System.out.print("num2값 입력 :");
 		int num2 = s.nextInt();
 		int aa = func(num1,a,num2);
-		System.out.printf("%d %s %d = %d", num1, a, num2, aa);
+		System.out.printf("%d %s %d = %d", num1, a, num2, func(num1,a,num2));
 		
 		
 		
