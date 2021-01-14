@@ -3,14 +3,16 @@ import java.util.Random;
 public class StudentMain {
 
 	public static void main(String[] args) {
+		//생성자 내부에 메소드가 아무것도 없을때
 //		StudentScore sc = new StudentScore();
 //		sc.makeRandom();
 //		sc.getHakjum();
 //		sc.showHakjum();
 //		
+		//생성자 내부에 메소드가 모두 존재할때
 //		for (int i=0; i<5; i++) {
 //			new StudentScore();
-//		
+//		//생성자 내부에 메소드 2개만 존재할때
 		StudentScore sc[] = new StudentScore[5];
 		for (int i=0; i<sc.length; i++) {
 			sc[i] = new StudentScore();

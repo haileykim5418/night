@@ -6,7 +6,7 @@ public class ClassStudent{
 	private char gender;
 	private String address;
 
-	ClassStudent() {
+	 public ClassStudent() {
 		name = "";
 		age = 0;
 		gender = ' ';
