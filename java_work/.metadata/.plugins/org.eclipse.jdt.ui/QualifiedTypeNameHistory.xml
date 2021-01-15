@@ -14,7 +14,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Car2"/>
     <fullyQualifiedTypeName name="com.gh.app.ClassStudent"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.gh.app.MainStudent"/>
     <fullyQualifiedTypeName name="com.gh.app.Student"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.samsung.app.Student"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* 정적인거 */
+            width: 960;
+            margin: 0 auto;
+            /* 동적인거
+            widows: 100%; */
+
+            display: grid;
+            /* 열에 대해서 2:8 */
+            grid-template-columns: 2fr 8fr;
+            gap: 10px;
+
+            grid-template-areas:
+                'header header'
+                'aside section'
+                'footer footer';
+
+        }
+
+        .container>div {
+            background-color: pink;
+        }
+
+        .header {
+            grid-area: header;
+
+        }
+
+        .aside {
+            grid-area: aside;
+        }
+
+        .section {
+            grid-area: section;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <dov class="container">
+        <div class="header">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque facere perspiciatis, nihil odio
+                consequatur consequuntur repudiandae minima non ab explicabo?</p>
+        </div>
+        <div class="aside">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque facere perspiciatis, nihil odio
+                consequatur consequuntur repudiandae minima non ab explicabo?</p>
+        </div>
+        <div class="section">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque facere perspiciatis, nihil odio
+                consequatur consequuntur repudiandae minima non ab explicabo?</p>
+        </div>
+        <div class="footer">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque facere perspiciatis, nihil odio
+                consequatur consequuntur repudiandae minima non ab explicabo?</p>
+        </div>
+    </dov>
+</body>
+
+</html>

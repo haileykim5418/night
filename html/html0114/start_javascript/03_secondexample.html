@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, minima!</h1>
+    <h2 class="ppp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, quas.</h2>
+    <h2 class="ppp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, quas.</h2>
+    <script>
+
+        //파라 라는 아이디를 가져와서 텍스트를 로렘으로 바꾸겠다
+        document.getElementById('para').innerText = "lorem";
+        //여러 클래스 중ppp라는 요소들을 가져오는데 그중 첫번째는 ..으로 바꾸겠다
+        document.getElementsByClassName('ppp')[0].innerText="..";
+        document.getElementsByClassName('ppp')[1].style.color="violet"
+    </script>
+</body>
+</html>

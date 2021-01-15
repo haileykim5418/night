@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var one = 1;
+        var two = "2";
+        let three = 3;
+//let을 사용하면 변수 중복 선언 가능
+        var one = 111;
+        console.log("dd");
+        
+
+        var array = [1,2,3,"아",'오',6];
+    for(var i = 0; i < array.length; i++)
+    {
+        console.log(array[i]);
+    }
+    array = 100;
+    console.log(array);
+
+    var obj = {
+        name : "김우진",
+        age : 300,
+        master : "이동준",
+        123:"뭐야"
+    }
+     console.log(obj['name']);
+     console.log(obj['age']);
+     console.log(obj['master']);
+     console.log(obj.name);
+     console.log(obj.age);
+     console.log(obj.master);
+     console.log(obj['123']);
+
+    var wow = function()
+    {
+        console.log("대박");
+    };
+    //변수에 함수 넣어놓고 변수 호출하면 변수를 함수처럼 사용 가능하게 됨
+    wow();
+    console.log(wow);
+    console.log(wow());
+
+     wow(); wow()
+
+     var devilArray = 
+     [
+         1,2,3,
+         {master : "이동준",name : "김우진"},[1,2,3]
+     ]
+     console.log(devilArray[0])
+    console.log(devilArray[1])
+    console.log(devilArray[2])
+    console.log(devilArray[3])
+    console.log(devilArray[4])
+
+    var devilJson =
+    {
+        one:[1,2,3,4,5],
+        two:{two_one:"2",
+    two_two : "twotwo"},
+    three:5
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
