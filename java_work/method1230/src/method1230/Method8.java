@@ -10,7 +10,7 @@ public class Method8 {
 	public static void main(String[] args) {
 		int hap = plus(100,200);
 		System.out.println("hap: " + hap);
-		System.out.println("hap: " + plus(200,300/));
+		System.out.println("hap: " + plus(200,300));
 	}
 
 }

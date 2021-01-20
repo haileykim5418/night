@@ -33,7 +33,8 @@ public class Test3 {
 		evenOdd(arr);
 		}
 	public static void evenOdd(int arr[]) {
-		for (int i : arr) {
+		//for (int i : arr) {
+		for (int i=0; i<arr.length; i++) {
 			if (i%2!=0) {
 				System.out.println(i+"=홀수");
 			}
