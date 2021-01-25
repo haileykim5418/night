@@ -16,6 +16,6 @@
     <fullyQualifiedTypeName name="com.gh.app.MainStudent"/>
     <fullyQualifiedTypeName name="com.gh.app.Student"/>
     <fullyQualifiedTypeName name="com.samsung.app.Student"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
