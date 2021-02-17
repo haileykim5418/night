@@ -1,0 +1,6 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\bin\Debug\car.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\bin\Debug\car.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\bin\Debug\car.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\obj\Debug\car.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\obj\Debug\car.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\class0208\car\obj\Debug\car.pdb
