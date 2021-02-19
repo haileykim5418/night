@@ -3,138 +3,238 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace addressTest0218
+namespace Car
 {
     class Program
     {
-        const int MENU_ADD_ITEM = 1;
+        //씨샵에서는 COSNT자체에 정적변수 개념 포함되어 있음
+        const int MENU_ADD = 1;
         const int MENU_VIEW = 2;
-        const int MENU_RANDOM_ADD = 3;
+        const int MENU_RANDDOM_ADD = 3;
         const int MENU_DELETE = 4;
         const int MENU_DELETE_ALL = 5;
-        const int MENU_EXIT = 6;
+        const int MENU_UPDATE = 6;
+        const int MENU_CHANGE = 7;
+        const int MENU_EXIT = 8;
 
-        static List<Student> addrList = new List<Student>();
+        
 
+        static List<Student> addrList =
+            new List<Student>();
+        static Student stud;
+        static Random r = new Random();
 
         static void Main(string[] args)
         {
-
+            stud = Student.getInst();
             while (true)
             {
                 switch (getMenu())
                 {
-                    case MENU_ADD_ITEM:
+                    case MENU_ADD:
                         addItem();
                         break;
                     case MENU_VIEW:
                         viewItem();
                         break;
-                    case MENU_RANDOM_ADD:
-                        randData();
+                    case MENU_RANDDOM_ADD:
+                        addrandom();
                         break;
                     case MENU_DELETE:
-                        delItem();
+                        deleteItem();
                         break;
+                    case MENU_UPDATE:
+                        updateItem();
+                        break;
+
+                    case MENU_CHANGE:
+                        change();
+                        break;
+                    
                     case MENU_DELETE_ALL:
-                        delItemAll();
+                        deleteItemAll();
                         break;
+
                     case MENU_EXIT:
-                        viewItem();
-                        break;
                         Console.WriteLine("프로그램 종료");
                         Environment.Exit(0);
                         break;
+
+
                 }
-            }
-        }
-
-
-        public static void addItem()
-        {
-            Console.WriteLine("------------------------");
-            Console.WriteLine("1. 주소록 정보 추가");
-            Console.WriteLine("------------------------");
-            Console.WriteLine("이름:");
-            string name = Console.ReadLine();
-            Console.WriteLine("전화:");
-            string tel = Console.ReadLine();
-            Console.WriteLine("주소:");
-            string address = Console.ReadLine();
-            Console.WriteLine("이메일:");
-            string email = Console.ReadLine();
-
-            addrList.Add(new Student(name, tel, address, email));
-            Console.WriteLine("정보가 정상적으로 입력되었습니다.");
-        }
-
-        public static void viewItem()
-        {
-            for (int i = 0; i < addrList.Count; i++)
-            {
-                Console.WriteLine("번호:" + (i + 1));
-                Console.WriteLine("이름:" + addrList[i].Name);
-                Console.WriteLine("전화:" + addrList[i].Tel);
-                Console.WriteLine("주소:" + addrList[i].Address);
-                Console.WriteLine("이메일:" + addrList[i].Email);
-                Console.WriteLine("------------------------");
-
             }
         }
         public static int getMenu()
         {
-
-            Console.WriteLine("------------------------");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("   주소록 관리 v1.0 ");
+            Console.WriteLine("----------------------");
             Console.WriteLine("1. 주소록 정보 추가");
             Console.WriteLine("2. 주소록 정보 보기");
-            Console.WriteLine("3.랜덤 데이터 추가");
-            Console.WriteLine("4. 종료");
-            Console.WriteLine("------------------------");
-            Console.WriteLine("메뉴선택");
+            Console.WriteLine("3. 랜덤 데이터 추가");
+            Console.WriteLine("4. 데이터 삭제");
+            Console.WriteLine("5. 데이터 모두 삭제");
+            Console.WriteLine("6. 데이터 모두 업데이트");
+            Console.WriteLine("7. 주소록 수정");
+            Console.WriteLine("8. 종료");
+            Console.WriteLine("-------------------");
+            Console.WriteLine("메뉴 선택: ");
             int menu = Convert.ToInt32(Console.ReadLine());
             return menu;
 
-        }
-        public static void randData()
-        {
-            string[] name = { "홍길동", "이길동", "김길동", "박길동", "최길동" };
-            string[] tel = { "010-1111-1111", "010-1111-1112", "010-1111-1113", "010-1111-1114", "010-1111-1115" };
-            string[] address = { "대구", "서울", "부산", "대전", "광주" };
-            string[] email = { "hong@namer.com", "lee@namer.com", "kim@namer.com", "park@namer.com", "choi@namer.com", };
 
-            Random r = new Random();
-            for (int i = 0; i < 100; i++)
+        }
+
+        public static void addItem()
+        {
+            Console.WriteLine("---------------------");
+            Console.WriteLine("주소록 정보를 입력");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("이름: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("전화: ");
+            string tel = Console.ReadLine();
+            Console.WriteLine("주소: ");
+            string address = Console.ReadLine();
+            Console.WriteLine("이메일: ");
+            string email = Console.ReadLine();
+            stud.Name = name;
+            stud.Tel = tel;
+            stud.Address = address;
+            stud.Email = email;
+            addrList.Add(new Student(name, tel, address, email));
+            Console.WriteLine("정보가 정상적으로 입력되었습니다.");
+        }
+        public static void viewItem()
+        {
+            for (int i = 0; i < addrList.Count; i++)
             {
-                addrList.Add(new Student(
-                    name[r.Next(0, 5)],
-                    tel[r.Next(0, 5)],
-                    address[r.Next(0, 5)],
-                    email[r.Next(0, 5)]));
+                Console.WriteLine("이름: " + addrList[i].Name);
+                Console.WriteLine("전화: " + addrList[i].Tel);
+                Console.WriteLine("주소: " + addrList[i].Address);
+                Console.WriteLine("이메일: " + addrList[i].Email);
+                Console.WriteLine("-----------------------------------");
+
             }
         }
-        static void delItem()
+        public static void addrandom()
         {
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("주소록 정보 삭제");
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("삭제할 이름:");
-            string name = Console.ReadLine();
-            for(int i=0; i < addrList.Count; i++)
+
+            string[] name = { "홍길동", "김길동", "이길동", "박길동", "최길동" };
+            string[] tel = { "010-3524-4767", "010-3733-2356", "010-3764-3362", "010-3763-2723", "010-3622-2263" };
+            string[] address = { "대구시 동구 신암4동 ", "서울시 동구 신암4동","광주시 동구 신암4동",
+                "인천시 동구 신암4동", "부산시 동구 신암4동"};
+            string[] email = { "hong@naver.com", "lee@gmail.com", "park@daum.net", "choi@hanmail.net", "kim@gmail.com" };
+            //Random r = new Random();
+            for (int i = 0; i < 5; i++)
             {
-                if (name.Equals(addrList[i].Name))
+                addrList.Add(new Student(name[r.Next(0, 5)], tel[r.Next(0, 5)], address[r.Next(0, 5)], email[r.Next(0, 5)]
+                    ));
+            }
+        }
+        static void deleteItem()
+        {
+            Console.WriteLine("---------------------");
+            Console.WriteLine("주소록 정보를 삭제");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("삭제할 이름을 입력: ");
+
+
+            string na = Console.ReadLine();
+
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                if (na.Equals(addrList[i].Name))
+                {
+                    addrList.RemoveAt(i);
+
+                }
+
+
+            }
+
+        }
+        static void deleteItemAll()
+        {
+
+            Console.WriteLine("---------------------");
+            Console.WriteLine("!주소록 정보를모두 삭제!");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("삭제를 진행하시겠습니까? ");
+            addrList.Clear();
+
+
+        }
+        static void updateItem()
+        {
+            Console.WriteLine("---------------------");
+            Console.WriteLine("주소록 정보 업데이트");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("업데이트할 이름을 입력: ");
+
+            string na = Console.ReadLine();
+
+            for (int i = 0; i < addrList.Count; i++)
+            {
+                if (na.Equals(addrList[i].Name))
                 {
                     addrList.RemoveAt(i--);
+
                 }
+
             }
+            addItem();
+
 
         }
-        static void delItemAll()
+        static string getId()
         {
-            addrList.Clear();
+           /* Random r = new Random();*/
+            string rdata = "abcdefghijklmnop"+"0123456789abcdefghijklmnopqrstuvwxyz"+"~!@#$%^&*()";
+            StringBuilder rs = new StringBuilder();
+            for(int i=0; i<10; i++)
+            {
+                rs.Append(rdata[(int)(r.NextDouble() * rdata.Length)]);
+            }
+            // Console.WriteLine("id:"+rs.ToString());
+            return rs.ToString();
+        }
+        
+        static void change()
+        {
+            string beforename;
+            string aftername;
+
+            Console.WriteLine("-----------------");
+            Console.WriteLine("주소록 수정");
+            Console.WriteLine("-----------------");
+            Console.WriteLine("1.이름");
+            Console.WriteLine("2.전화번호");
+            Console.WriteLine("3.주소");
+            Console.WriteLine("4.이메일");
+            Console.WriteLine("-----------------");
+            Console.WriteLine("수정할 항목:");
+            int menu = Console.Read();
+            Console.WriteLine("수정할 이름:");
+
+            beforename = Console.ReadLine();
+            Console.WriteLine("변경할 이름:");
+            aftername = Console.ReadLine();
+
+            switch (menu)
+            {
+                case beforename:
+                    beforename == aftername;
+                    break;
+
+            }
+
+          /*  if (beforename.Equals(0)) ;
+            {
+                beforename == aftername;
+                Console.WriteLine(aftername);
+            }*/
+
         }
     }
 }
-
-
-
