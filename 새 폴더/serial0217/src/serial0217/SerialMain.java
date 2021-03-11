@@ -33,7 +33,7 @@ public class SerialMain {
 
 	public static String login(Scanner s) {
 		System.out.println("-------------------------");
-		System.out.println("스마트홈 제어 로그인");
+		System.out.println("�뒪留덊듃�솃 �젣�뼱 濡쒓렇�씤");
 		System.out.println("-------------------------");
 		System.out.print("ID:");
 		String id = s.next();
@@ -55,39 +55,39 @@ public class SerialMain {
 	public static int adminMenu(Scanner s) {
 
 		System.out.println("----------------------------");
-		System.out.println("      스마트 홈 제어 관리자       ");
+		System.out.println("      �뒪留덊듃 �솃 �젣�뼱 愿�由ъ옄       ");
 		System.out.println("----------------------------");
-		System.out.println("1.TV 켜기");
-		System.out.println("2.TV 끄기");
-		System.out.println("3.보일러 동작");
-		System.out.println("4.세탁기 동작");
-		System.out.println("5.긴급정지");
-		System.out.println("6.로그아웃");
-		System.out.println("6.종료");
+		System.out.println("1.TV 耳쒓린");
+		System.out.println("2.TV �걚湲�");
+		System.out.println("3.蹂댁씪�윭 �룞�옉");
+		System.out.println("4.�꽭�긽湲� �룞�옉");
+		System.out.println("5.湲닿툒�젙吏�");
+		System.out.println("6.濡쒓렇�븘�썐");
+		System.out.println("6.醫낅즺");
 		System.out.println("----------------------------");
-		System.out.print("메뉴 선택: ");
+		System.out.print("硫붾돱 �꽑�깮: ");
 		return s.nextInt();
 	}
 
 	public static int guestMenu(Scanner s) {
 		System.out.println("----------------------------");
-		System.out.println("      스마트 홈 제어 사용자      ");
+		System.out.println("      �뒪留덊듃 �솃 �젣�뼱 �궗�슜�옄      ");
 		System.out.println("----------------------------");
-		System.out.println("1.TV 켜기");
-		System.out.println("2.TV 끄기");
-		System.out.println("3.보일러 동작");
-		System.out.println("4.세탁기 동작");
-		System.out.println("5.로그아웃");
-		System.out.println("6.종료");
+		System.out.println("1.TV 耳쒓린");
+		System.out.println("2.TV �걚湲�");
+		System.out.println("3.蹂댁씪�윭 �룞�옉");
+		System.out.println("4.�꽭�긽湲� �룞�옉");
+		System.out.println("5.濡쒓렇�븘�썐");
+		System.out.println("6.醫낅즺");
 		System.out.println("----------------------------");
-		System.out.print("메뉴 선택: ");
+		System.out.print("硫붾돱 �꽑�깮: ");
 		return s.nextInt();
 	}
 
 	public static boolean guestWork(Scanner s, SerialPort serial) {
 		switch (adminMenu(s)) {
 		case TV_ON:
-			System.out.println("TV 켜기");
+			System.out.println("TV 耳쒓린");
 			try {
 				serial.writeInt(CMD_TV_ON);
 			} catch (SerialPortException e) {
@@ -96,7 +96,7 @@ public class SerialMain {
 			}
 			break;
 		case TV_OFF:
-			System.out.println("TV 끄기");
+			System.out.println("TV �걚湲�");
 			try {
 				serial.writeInt(CMD_TV_OFF);
 			} catch (SerialPortException e) {
@@ -105,7 +105,7 @@ public class SerialMain {
 			}
 			break;
 		case HOTTER_ON:
-			System.out.println("보일러 가동");
+			System.out.println("蹂댁씪�윭 媛��룞");
 			try {
 				serial.writeInt(CMD_HOTTER_ON);
 			} catch (SerialPortException e) {
@@ -114,7 +114,7 @@ public class SerialMain {
 			}
 			break;
 		case CLEANER_ON:
-			System.out.println("세탁기 가동");
+			System.out.println("�꽭�긽湲� 媛��룞");
 			try {
 				serial.writeInt(CMD_CLEANER_ON);
 			} catch (SerialPortException e) {
@@ -123,10 +123,10 @@ public class SerialMain {
 			}
 			break;
 		case GUEST_LOGOUT:
-			System.out.println("사용자 로그 아웃");
+			System.out.println("�궗�슜�옄 濡쒓렇 �븘�썐");
 			return false;
 		case GUEST_EXIT:
-			System.out.println("프로그램 종료");
+			System.out.println("�봽濡쒓렇�옩 醫낅즺");
 			s.close();
 			System.exit(0);
 		}
@@ -154,7 +154,7 @@ public class SerialMain {
 			}
 			break;
 		case HOTTER_ON:
-			System.out.println("보일러 가동");
+			System.out.println("蹂댁씪�윭 媛��룞");
 			try {
 				serial.writeInt(CMD_HOTTER_ON);
 			} catch (SerialPortException e) {
@@ -163,7 +163,7 @@ public class SerialMain {
 			}
 			break;
 		case CLEANER_ON:
-			System.out.println("세탁기 가동");
+			System.out.println("�꽭�긽湲� 媛��룞");
 			try {
 				serial.writeInt(CMD_CLEANER_ON);
 			} catch (SerialPortException e) {
@@ -172,7 +172,7 @@ public class SerialMain {
 			}
 			break;
 		case EMG:
-			System.out.println("긴급 정지");
+			System.out.println("湲닿툒 �젙吏�");
 			try {
 				serial.writeInt(EMG);
 			} catch (SerialPortException e) {
@@ -181,10 +181,10 @@ public class SerialMain {
 			}
 			break;
 		case ADMIN_LOGOUT:
-			System.out.println("관리자 로그아웃");
+			System.out.println("愿�由ъ옄 濡쒓렇�븘�썐");
 			return false;
 		case ADMIN_EXIT:
-			System.out.println("프로그램 종료");
+			System.out.println("�봽濡쒓렇�옩 醫낅즺");
 			s.close();
 			System.exit(0);
 		}
@@ -192,19 +192,19 @@ public class SerialMain {
 	}
 
 	public static SerialPort initial() {
-		// 사용가능한 포트정보 받아옴(케이블이 장치와 연결되어있으면 열려있다는 의미)
+		// �궗�슜媛��뒫�븳 �룷�듃�젙蹂� 諛쏆븘�샂(耳��씠釉붿씠 �옣移섏� �뿰寃곕릺�뼱�엳�쑝硫� �뿴�젮�엳�떎�뒗 �쓽誘�)
 		String[] portName = SerialPortList.getPortNames();
 		for (int i = 0; i < portName.length; i++) {
-			System.out.println("사용가능 포트: " + portName[i]);
+			System.out.println("�궗�슜媛��뒫 �룷�듃: " + portName[i]);
 		}
-		// 포트네임부분에 내가 연결되어있는 포트 연결해도됨 ex.COM5
+		// �룷�듃�꽕�엫遺�遺꾩뿉 �궡媛� �뿰寃곕릺�뼱�엳�뒗 �룷�듃 �뿰寃고빐�룄�맖 ex.COM5
 		SerialPort serialPort = new SerialPort(portName[0]);
 
 		try {
 			serialPort.openPort();
 			serialPort.setParams(SerialPort.BAUDRATE_9600, SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
 					SerialPort.PARITY_NONE);
-//			System.out.println("포트 사용 가능!");
+//			System.out.println("�룷�듃 �궗�슜 媛��뒫!");
 		} catch (SerialPortException e) {
 			e.printStackTrace();
 		}
@@ -234,8 +234,8 @@ public class SerialMain {
 			} else
 
 			{
-				System.out.println("ID 또는 비번이 잘못되었습니다.");
-				System.out.println("다시 입력하세요.");
+				System.out.println("ID �삉�뒗 鍮꾨쾲�씠 �옒紐삳릺�뿀�뒿�땲�떎.");
+				System.out.println("�떎�떆 �엯�젰�븯�꽭�슂.");
 			}
 
 		}

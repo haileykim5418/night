@@ -1,6 +1,3 @@
-INDEX VERSION 1.131+C:\Users\KB\Desktop\새 폴더\serial0217\.metadata\.plugins\org.eclipse.jdt.core
-638219507.index
+INDEX VERSION 1.131+C:\Users\KB\Desktop\가현\night\새 폴더\serial0217\.metadata\.plugins\org.eclipse.jdt.core
 1731194516.index
-1090587783.index
-1781874783.index
 2746975843.index

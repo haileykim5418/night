@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\bin\Debug\0222Main.exe.config
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\bin\Debug\0222Main.exe
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\bin\Debug\0222Main.pdb
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\obj\Debug\0222Main.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\obj\Debug\0222Main.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\obj\Debug\0222Main.exe
+C:\Users\KB\Desktop\가현\night\0222\0222Main\0222Main\obj\Debug\0222Main.pdb

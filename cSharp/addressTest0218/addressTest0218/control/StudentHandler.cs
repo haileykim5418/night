@@ -1,13 +1,18 @@
-﻿using System;
+﻿
+using Car;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace addressTest0218.control
+namespace car.control
 {
     class StudentHandler
     {
+        Student st = new Student();
+
+
 
     }
 }
