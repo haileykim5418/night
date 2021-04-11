@@ -1,0 +1,13 @@
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\bin\Debug\SunnyUI.Common.dll
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\bin\Debug\SunnyUI.dll
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.Form1.resources
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.csproj.CopyComplete
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\gahyeon\Desktop\가현\CSharp\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
