@@ -1,0 +1,13 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.deps.json
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.runtimeconfig.json
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.runtimeconfig.dev.json
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.dll
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\bin\Debug\netcoreapp3.1\class0215.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.AssemblyInfoInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.AssemblyInfo.cs
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.dll
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0215\class0215\class0215\obj\Debug\netcoreapp3.1\class0215.genruntimeconfig.cache

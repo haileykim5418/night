@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\bin\Debug\ConsoleApp123.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\bin\Debug\ConsoleApp123.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\bin\Debug\ConsoleApp123.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\obj\Debug\ConsoleApp123.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\obj\Debug\ConsoleApp123.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\obj\Debug\ConsoleApp123.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\ConsoleApp123\ConsoleApp123\obj\Debug\ConsoleApp123.pdb

@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\bin\Debug\arr0208.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\bin\Debug\arr0208.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\bin\Debug\arr0208.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\obj\Debug\arr0208.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\obj\Debug\arr0208.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\obj\Debug\arr0208.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0208\arr0208\arr0208\obj\Debug\arr0208.pdb

@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\bin\Debug\hello2.exe.config
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\bin\Debug\hello2.exe
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\bin\Debug\hello2.pdb
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.Form1.resources
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.exe
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\hello2\hello2\obj\Debug\hello2.pdb

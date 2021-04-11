@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.Form1.resources
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\bin\Debug\cal.exe.config
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\bin\Debug\cal.exe
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\bin\Debug\cal.pdb
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.exe
+C:\Users\KB\Desktop\가현\night\c#\프로젝트1\cal\cal\obj\Debug\cal.pdb

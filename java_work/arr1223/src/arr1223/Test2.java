@@ -10,7 +10,7 @@ public class Test2 {
 		for (int i = 1; i < arr.length; i++) {
 			arr[i] = i;
 			if (i % 5 == 0) {
-				System.out.println(i);
+				System.out.println(arr[i]);
 			}
 		}
 		System.out.println("-------------------------");
