@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\bin\Debug\answer0406.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\bin\Debug\answer0406.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\bin\Debug\answer0406.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\obj\Debug\answer0406.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\obj\Debug\answer0406.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\obj\Debug\answer0406.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0406\answer0406\obj\Debug\answer0406.pdb

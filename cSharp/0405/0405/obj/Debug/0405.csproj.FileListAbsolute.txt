@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\bin\Debug\0405.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\bin\Debug\0405.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\bin\Debug\0405.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\obj\Debug\0405.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\obj\Debug\0405.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\obj\Debug\0405.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0405\0405\obj\Debug\0405.pdb

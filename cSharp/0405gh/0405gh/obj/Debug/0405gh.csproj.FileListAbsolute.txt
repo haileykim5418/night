@@ -1,0 +1,6 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\bin\Debug\0405gh.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\bin\Debug\0405gh.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\bin\Debug\0405gh.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\obj\Debug\0405gh.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\obj\Debug\0405gh.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0405gh\0405gh\obj\Debug\0405gh.pdb

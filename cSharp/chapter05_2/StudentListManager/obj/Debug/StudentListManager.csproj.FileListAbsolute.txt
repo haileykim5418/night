@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\bin\Debug\StudentListManager.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\bin\Debug\StudentListManager.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\bin\Debug\StudentListManager.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\StudentListManager\obj\Debug\StudentListManager.csprojAssemblyReference.cache

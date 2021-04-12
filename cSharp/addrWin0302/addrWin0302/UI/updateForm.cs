@@ -36,7 +36,7 @@ namespace addrWin0302.UI
                         addrList[i].Email,}));
             }
             setRowColor(upList, Color.White, Color.LightGray);
-            int index = upList.Items.Count - 1;
+           // int index = upList.Items.Count - 1;
             // listView.Items[index].Selected = true;
             // upList.Items[index].Focused = true;
             // upList.EnsureVisible(index);
@@ -63,35 +63,12 @@ namespace addrWin0302.UI
             showList();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void addCancle_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void uiSymbolLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void uiSymbolLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void addName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void addTel_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void upList_SelectedIndexChanged(object sender, EventArgs e)
         {

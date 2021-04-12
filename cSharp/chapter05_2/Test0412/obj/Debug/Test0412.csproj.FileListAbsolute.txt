@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\bin\Debug\Test0412.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\bin\Debug\Test0412.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\bin\Debug\Test0412.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.randNumber.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\Test0412\obj\Debug\Test0412.csprojAssemblyReference.cache

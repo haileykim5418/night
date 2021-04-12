@@ -10,9 +10,9 @@ namespace adressTest0218.control
 
         static StudentCtrl inst;
 
-        List<Student> addrList = new List<Student>();
+        readonly List<Student> addrList = new List<Student>();
 
-        RandData rand;
+       readonly RandData rand;
 
         public static StudentCtrl getInst()
         {
@@ -25,7 +25,7 @@ namespace adressTest0218.control
 
         public StudentCtrl()
         {
-            //r = new Random();
+            //r = new Random()
             rand = new RandData(new Random());
         }
 

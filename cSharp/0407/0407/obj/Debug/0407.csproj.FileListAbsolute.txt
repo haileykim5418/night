@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\bin\Debug\0407.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\bin\Debug\0407.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\bin\Debug\0407.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\obj\Debug\0407.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\obj\Debug\0407.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\obj\Debug\0407.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0407\0407\obj\Debug\0407.pdb

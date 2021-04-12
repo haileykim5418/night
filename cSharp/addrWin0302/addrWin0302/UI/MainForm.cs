@@ -30,15 +30,11 @@ namespace addrWin0302
             MessageBox.Show("Upate 2021년3월2일 by gh");
         }
 
-        private void addrAdd_Click(object sender, EventArgs e)
-        {
-            new AddForm(sc).ShowDialog();
-            //sc.addItem();
-        }
+       
 
         private void addrView_Click(object sender, EventArgs e)
         {
-            // StudentCtrl.getInst().viewItem();
+            // StudentCtrl.getInst().viewItem()
             sc.viewItem();
             new ViewForm(sc).ShowDialog();
         }
@@ -62,8 +58,8 @@ namespace addrWin0302
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            //   StudentCtrl.getInst().updateItem();
-            // sc.updateItem();
+            //   StudentCtrl.getInst().updateItem()
+            // sc.updateItem()
             new UpdateForm(sc).ShowDialog();
         }
 

@@ -152,7 +152,7 @@ namespace addrWin0302.UI
             this.upTel.Padding = new System.Windows.Forms.Padding(5);
             this.upTel.Size = new System.Drawing.Size(169, 29);
             this.upTel.TabIndex = 13;
-            this.upTel.TextChanged += new System.EventHandler(this.addTel_TextChanged);
+           
             // 
             // upName
             // 
@@ -168,7 +168,7 @@ namespace addrWin0302.UI
             this.upName.Padding = new System.Windows.Forms.Padding(5);
             this.upName.Size = new System.Drawing.Size(169, 29);
             this.upName.TabIndex = 11;
-            this.upName.TextChanged += new System.EventHandler(this.addName_TextChanged);
+       
             // 
             // uiSymbolLabel2
             // 
@@ -183,7 +183,7 @@ namespace addrWin0302.UI
             this.uiSymbolLabel2.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.uiSymbolLabel2.TabIndex = 12;
             this.uiSymbolLabel2.Text = "전화";
-            this.uiSymbolLabel2.Click += new System.EventHandler(this.uiSymbolLabel2_Click);
+
             // 
             // uiSymbolLabel1
             // 
@@ -198,7 +198,7 @@ namespace addrWin0302.UI
             this.uiSymbolLabel1.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.uiSymbolLabel1.TabIndex = 10;
             this.uiSymbolLabel1.Text = "이름";
-            this.uiSymbolLabel1.Click += new System.EventHandler(this.uiSymbolLabel1_Click);
+           
             // 
             // upList
             // 

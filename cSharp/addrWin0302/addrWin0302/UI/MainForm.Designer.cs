@@ -53,7 +53,7 @@ namespace addrWin0302
             this.addrAdd.TabIndex = 4;
             this.addrAdd.Text = "주소록 추가";
             this.addrAdd.TextColor = System.Drawing.Color.White;
-            this.addrAdd.Click += new System.EventHandler(this.addrAdd_Click);
+           
             // 
             // addrView
             // 

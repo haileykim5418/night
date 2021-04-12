@@ -12,9 +12,9 @@ C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWi
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CopyComplete
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.exe
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.pdb
-C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.ViewForm.resources
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.DelForm.resources
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.UpdateForm.resources
 C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\bin\Debug\NanumGothicCoding.ttf
+C:\Users\KB\Desktop\가현\night\cSharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache

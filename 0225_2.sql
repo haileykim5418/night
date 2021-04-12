@@ -38,4 +38,4 @@ SELECT user_nm AS "성명",user_age AS "나이" FROM k_user WHERE user_nm LIKE '
 SELECT SUM (user_age) AS '나이의 총 합계' FROM t_user;
 SELECT max (user_age) AS '가장 나이가 많은 사람' FROM t_user;
 SELECT avg (user_age) AS '평균 나이' FROM t_user;
-SELECT count (user_age) AS '데이터 갯수' FROM t_user;
+SELECT count (user_age) AS '데이터 갯수' FROM t_user;t_user

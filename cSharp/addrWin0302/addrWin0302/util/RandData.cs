@@ -18,7 +18,7 @@ namespace adressTest0218.util
                 "kim@naver.com", "lee@naver.com",
                 "park@naver.com", "choi@naver.com"};
 
-        Random r;
+       readonly Random r;
 
         public RandData(Random r)
         {

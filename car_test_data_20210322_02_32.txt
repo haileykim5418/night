@@ -1,0 +1,3 @@
+﻿INSERT INTO car (car_number, car_model, car_price, car_color, car_manu, car_year) VALUES (1, 'car_model 1', 'car_price 1', 'car_color 1', 'car_manu 1', 'car_year 1');
+INSERT INTO car (car_number, car_model, car_price, car_color, car_manu, car_year) VALUES (2, 'car_model 2', 'car_price 2', 'car_color 2', 'car_manu 2', 'car_year 2');
+INSERT INTO car (car_number, car_model, car_price, car_color, car_manu, car_year) VALUES (3, 'car_model 3', 'car_price 3', 'car_color 3', 'car_manu 3', 'car_year 3');

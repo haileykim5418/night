@@ -12,6 +12,8 @@ namespace lotto
 {
     public partial class Form1 : Form
     {
+        Random r = new Random();
+
         public Form1()
         {
             InitializeComponent();
@@ -20,24 +22,66 @@ namespace lotto
         private void clickButton_Click(object sender, EventArgs e)
         {
 
-            int[] lotto = new int[6];
-            Random r = new Random();
+            int[] lotto = new int[7];            
+            int rand = 0;
+            int sum = 0;
             for (int i = 0; i < lotto.Length; i++)
             {
-                lotto[i] = r.Next(1, 46);
+                rand = r.Next(1, 46);
+                lotto[i] = rand;
+                sum += lotto[i];
+                Console.WriteLine(lotto[i]);
+                /*Console.WriteLine(lotto[1]);
+                Console.WriteLine(lotto[2]);
+                Console.WriteLine(lotto[3]);
+                Console.WriteLine(lotto[4]);
+                Console.WriteLine(lotto[5]);*/
+
                 for (int j = 0; j < i; j++)
                 {
                     if (lotto[i] == lotto[j])
-                        i--;
+                    i--;
+                    sum -= lotto[i];
 
-                    num1.Text = r.Next(1, 45).ToString();
+
+                    /*num1.Text = r.Next(1, 45).ToString();                    
                     num2.Text = r.Next(1, 45).ToString();
                     num3.Text = r.Next(1, 45).ToString();
                     num4.Text = r.Next(1, 45).ToString();
                     num5.Text = r.Next(1, 45).ToString();
-                    num6.Text = r.Next(1, 45).ToString();
+                    num6.Text = r.Next(1, 45).ToString();*/
+                    
+
                 }
             }
+
+            for (int i = 0; i < lotto.Length; i++)
+            {
+                num1.Text = lotto[0].ToString();
+                num2.Text = lotto[1].ToString();
+                num3.Text = lotto[2].ToString();
+                num4.Text = lotto[3].ToString();
+                num5.Text = lotto[4].ToString();
+                num6.Text = lotto[5].ToString();
+            }
+
+            //숫사순서 정렬방법1
+            // Array.Sort(lotto);
+
+            //숫사순서 정렬방법2
+            for (int i = 0; i < lotto.Length; i++)
+            {
+                for (int j = 0; j < lotto.Length-1; j++)
+                {
+                    if (lotto[j] > lotto[j + 1])
+                    {
+                        int temp2 = lotto[j];
+                        lotto[j] = lotto[j + 1];
+                        lotto[j + 1] = temp2;
+                    }
+                }
+            }
+
         }
     }
 }

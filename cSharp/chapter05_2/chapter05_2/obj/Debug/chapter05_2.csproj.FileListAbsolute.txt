@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\bin\Debug\chapter05_2.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\bin\Debug\chapter05_2.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\bin\Debug\chapter05_2.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter05_2\chapter05_2\obj\Debug\chapter05_2.pdb

@@ -1,6 +1,0 @@
--- SELECT id_name AS "성명" FROM TABLE1 WHERE id IN (1,4) ORDER BY id DESC;
--- SELECT id_name AS "성명" FROM TABLE1 WHERE id_name LIKE '홍%';
--- SELECT * FROM TABLE1 WHERE id BETWEEN 1 AND 2 ORDER BY id DESC;
--- DELETE FROM TABLE1 WHERE id = 1;
--- UPDATE TABLE1 SET id_name = '나길동' WHERE id_name = '김길동';
--- UPDATE TABLE1 SET id_phone = '01022222222' WHERE id_name = '박길동';
