@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\bin\Debug\RandomNumTimer.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\bin\Debug\RandomNumTimer.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\bin\Debug\RandomNumTimer.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\RandomNumTimer\obj\Debug\RandomNumTimer.pdb

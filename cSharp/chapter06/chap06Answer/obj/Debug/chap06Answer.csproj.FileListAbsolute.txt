@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\bin\Debug\chap06Answer.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\bin\Debug\chap06Answer.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\bin\Debug\chap06Answer.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chap06Answer\obj\Debug\chap06Answer.pdb

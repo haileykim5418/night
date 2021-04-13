@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\bin\Debug\0413_answer2.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\bin\Debug\0413_answer2.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\bin\Debug\0413_answer2.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\_0413_answer2.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\_0413_answer2.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\0413_answer2.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\0413_answer2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\0413_answer2.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\0413_answer2.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0413_answer\0413_answer2\obj\Debug\0413_answer2.csprojAssemblyReference.cache

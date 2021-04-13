@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\bin\Debug\chapter06.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\bin\Debug\chapter06.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\bin\Debug\chapter06.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\chapter06\obj\Debug\chapter06.csprojAssemblyReference.cache

@@ -12,6 +12,7 @@ namespace Test0412
 {
     public partial class randNumber : Form
     {
+        tij
         Random rand = new Random();
 
         public randNumber()
@@ -58,9 +59,6 @@ namespace Test0412
             
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-     
-        }
+      
     }
 }
