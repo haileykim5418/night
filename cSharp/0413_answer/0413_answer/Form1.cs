@@ -49,12 +49,11 @@ namespace _0413_answer
         private void timer1_Tick(object sender, EventArgs e)
         {
             time++;
-            if (time == 10)
+            if (time == 60)
             {
                 MessageBox.Show("시작한지"+60+"초입니다");
              
             }
-            InitializeComponent();
         }
     }
 }

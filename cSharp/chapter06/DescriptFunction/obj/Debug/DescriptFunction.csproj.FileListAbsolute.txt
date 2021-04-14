@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\bin\Debug\DescriptFunction.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\bin\Debug\DescriptFunction.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\bin\Debug\DescriptFunction.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\DescriptFunction\obj\Debug\DescriptFunction.pdb

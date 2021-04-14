@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\bin\Debug\answer_Func.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\bin\Debug\answer_Func.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\bin\Debug\answer_Func.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.exe
+C:\Users\KB\Desktop\가현\night\cSharp\chapter06\answer_Func\obj\Debug\answer_Func.pdb
