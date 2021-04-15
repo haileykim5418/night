@@ -42,36 +42,16 @@ namespace lotto
                     if (lotto[i] == lotto[j])
                     i--;
                     sum -= lotto[i];
-
-
-                    /*num1.Text = r.Next(1, 45).ToString();                    
-                    num2.Text = r.Next(1, 45).ToString();
-                    num3.Text = r.Next(1, 45).ToString();
-                    num4.Text = r.Next(1, 45).ToString();
-                    num5.Text = r.Next(1, 45).ToString();
-                    num6.Text = r.Next(1, 45).ToString();*/
-                    
-
                 }
             }
 
-            for (int i = 0; i < lotto.Length; i++)
-            {
-                num1.Text = lotto[0].ToString();
-                num2.Text = lotto[1].ToString();
-                num3.Text = lotto[2].ToString();
-                num4.Text = lotto[3].ToString();
-                num5.Text = lotto[4].ToString();
-                num6.Text = lotto[5].ToString();
-            }
-
-            //숫사순서 정렬방법1
+            //숫자순서 정렬방법1
             // Array.Sort(lotto);
 
-            //숫사순서 정렬방법2
+            //숫자순서 정렬방법2
             for (int i = 0; i < lotto.Length; i++)
             {
-                for (int j = 0; j < lotto.Length-1; j++)
+                for (int j = 0; j < i-1; j++)
                 {
                     if (lotto[j] > lotto[j + 1])
                     {
@@ -82,6 +62,13 @@ namespace lotto
                 }
             }
 
+            num1.Text = lotto[0].ToString();
+            num2.Text = lotto[1].ToString();
+            num3.Text = lotto[2].ToString();
+            num4.Text = lotto[3].ToString();
+            num5.Text = lotto[4].ToString();
+            num6.Text = lotto[5].ToString();
+            label7.Text = lotto[6].ToString();
         }
     }
 }

@@ -66,9 +66,10 @@ namespace lotto
             this.clickButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clickButton.ForeColor = System.Drawing.Color.Blue;
             this.clickButton.Image = ((System.Drawing.Image)(resources.GetObject("clickButton.Image")));
-            this.clickButton.Location = new System.Drawing.Point(99, 180);
+            this.clickButton.Location = new System.Drawing.Point(87, 144);
+            this.clickButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clickButton.Name = "clickButton";
-            this.clickButton.Size = new System.Drawing.Size(139, 115);
+            this.clickButton.Size = new System.Drawing.Size(122, 92);
             this.clickButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.clickButton.TabIndex = 0;
             this.clickButton.TabStop = false;
@@ -78,56 +79,61 @@ namespace lotto
             // 
             // num1
             // 
+            this.num1.AutoSize = true;
             this.num1.BackColor = System.Drawing.Color.White;
-            this.num1.Location = new System.Drawing.Point(286, 228);
+            this.num1.Location = new System.Drawing.Point(252, 185);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(15, 18);
+            this.num1.Size = new System.Drawing.Size(11, 12);
             this.num1.TabIndex = 1;
             this.num1.Text = "-";
-           
             // 
             // num2
             // 
+            this.num2.AutoSize = true;
             this.num2.BackColor = System.Drawing.Color.White;
-            this.num2.Location = new System.Drawing.Point(350, 231);
+            this.num2.Location = new System.Drawing.Point(308, 185);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(18, 15);
+            this.num2.Size = new System.Drawing.Size(11, 12);
             this.num2.TabIndex = 2;
             this.num2.Text = "-";
             // 
             // num3
             // 
+            this.num3.AutoSize = true;
             this.num3.BackColor = System.Drawing.Color.White;
-            this.num3.Location = new System.Drawing.Point(422, 229);
+            this.num3.Location = new System.Drawing.Point(369, 183);
             this.num3.Name = "num3";
-            this.num3.Size = new System.Drawing.Size(17, 15);
+            this.num3.Size = new System.Drawing.Size(11, 12);
             this.num3.TabIndex = 3;
             this.num3.Text = "-";
             // 
             // num4
             // 
+            this.num4.AutoSize = true;
             this.num4.BackColor = System.Drawing.Color.White;
-            this.num4.Location = new System.Drawing.Point(490, 233);
+            this.num4.Location = new System.Drawing.Point(429, 186);
             this.num4.Name = "num4";
-            this.num4.Size = new System.Drawing.Size(18, 17);
+            this.num4.Size = new System.Drawing.Size(11, 12);
             this.num4.TabIndex = 4;
             this.num4.Text = "-";
             // 
             // num5
             // 
+            this.num5.AutoSize = true;
             this.num5.BackColor = System.Drawing.Color.White;
-            this.num5.Location = new System.Drawing.Point(561, 232);
+            this.num5.Location = new System.Drawing.Point(491, 186);
             this.num5.Name = "num5";
-            this.num5.Size = new System.Drawing.Size(17, 17);
+            this.num5.Size = new System.Drawing.Size(11, 12);
             this.num5.TabIndex = 5;
             this.num5.Text = "-";
             // 
             // num6
             // 
+            this.num6.AutoSize = true;
             this.num6.BackColor = System.Drawing.Color.White;
-            this.num6.Location = new System.Drawing.Point(635, 231);
+            this.num6.Location = new System.Drawing.Point(556, 185);
             this.num6.Name = "num6";
-            this.num6.Size = new System.Drawing.Size(14, 20);
+            this.num6.Size = new System.Drawing.Size(11, 12);
             this.num6.TabIndex = 6;
             this.num6.Text = "-";
             // 
@@ -135,18 +141,19 @@ namespace lotto
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(751, 229);
+            this.label7.Location = new System.Drawing.Point(657, 183);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(15, 15);
+            this.label7.Size = new System.Drawing.Size(11, 12);
             this.label7.TabIndex = 7;
             this.label7.Text = "-";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(264, 212);
+            this.pictureBox1.Location = new System.Drawing.Point(231, 170);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox1.Size = new System.Drawing.Size(46, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -154,9 +161,10 @@ namespace lotto
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(332, 212);
+            this.pictureBox2.Location = new System.Drawing.Point(290, 170);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 38);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -164,9 +172,10 @@ namespace lotto
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(400, 212);
+            this.pictureBox3.Location = new System.Drawing.Point(350, 170);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox3.Size = new System.Drawing.Size(46, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -174,9 +183,10 @@ namespace lotto
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(471, 212);
+            this.pictureBox4.Location = new System.Drawing.Point(412, 170);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox4.Size = new System.Drawing.Size(46, 38);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
@@ -184,9 +194,10 @@ namespace lotto
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(542, 212);
+            this.pictureBox5.Location = new System.Drawing.Point(474, 170);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox5.Size = new System.Drawing.Size(46, 38);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
@@ -194,9 +205,10 @@ namespace lotto
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(614, 212);
+            this.pictureBox6.Location = new System.Drawing.Point(537, 170);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox6.Size = new System.Drawing.Size(46, 38);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
@@ -204,9 +216,10 @@ namespace lotto
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(-3, -8);
+            this.pictureBox7.Location = new System.Drawing.Point(-3, -6);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(961, 561);
+            this.pictureBox7.Size = new System.Drawing.Size(841, 449);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
@@ -214,9 +227,10 @@ namespace lotto
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(729, 212);
+            this.pictureBox8.Location = new System.Drawing.Point(638, 170);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(53, 47);
+            this.pictureBox8.Size = new System.Drawing.Size(46, 38);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
@@ -225,18 +239,19 @@ namespace lotto
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(673, 212);
+            this.pictureBox9.Location = new System.Drawing.Point(589, 170);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 47);
+            this.pictureBox9.Size = new System.Drawing.Size(44, 38);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(941, 524);
+            this.ClientSize = new System.Drawing.Size(823, 419);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox8);
@@ -254,7 +269,9 @@ namespace lotto
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.clickButton);
             this.Controls.Add(this.pictureBox7);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.clickButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
