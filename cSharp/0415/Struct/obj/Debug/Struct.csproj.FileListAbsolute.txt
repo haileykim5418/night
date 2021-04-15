@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\bin\Debug\Struct.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\bin\Debug\Struct.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\bin\Debug\Struct.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0415\Struct\obj\Debug\Struct.csprojAssemblyReference.cache
