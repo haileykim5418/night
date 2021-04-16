@@ -37,7 +37,7 @@ namespace lotto
             this.num4 = new System.Windows.Forms.Label();
             this.num5 = new System.Windows.Forms.Label();
             this.num6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.num7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -137,15 +137,15 @@ namespace lotto
             this.num6.TabIndex = 6;
             this.num6.Text = "-";
             // 
-            // label7
+            // num7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(657, 183);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(11, 12);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "-";
+            this.num7.AutoSize = true;
+            this.num7.BackColor = System.Drawing.Color.White;
+            this.num7.Location = new System.Drawing.Point(657, 183);
+            this.num7.Name = "num7";
+            this.num7.Size = new System.Drawing.Size(11, 12);
+            this.num7.TabIndex = 7;
+            this.num7.Text = "-";
             // 
             // pictureBox1
             // 
@@ -253,7 +253,7 @@ namespace lotto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 419);
             this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.num7);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.num6);
             this.Controls.Add(this.num5);
@@ -297,7 +297,7 @@ namespace lotto
         private System.Windows.Forms.Label num4;
         private System.Windows.Forms.Label num5;
         private System.Windows.Forms.Label num6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label num7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
