@@ -51,13 +51,13 @@ namespace lotto
             //숫자순서 정렬방법2
             for (int i = 0; i < lotto.Length; i++)
             {
-                for (int j = 0; j < i-1; j++)
+                for (int j = i+1; j < lotto.Length-1; j++)
                 {
-                    if (lotto[j] > lotto[j + 1])
+                    if (lotto[j] > lotto[j])
                     {
-                        int temp2 = lotto[j];
+                        int temp = lotto[j];
                         lotto[j] = lotto[j + 1];
-                        lotto[j + 1] = temp2;
+                        lotto[j] = temp;
                     }
                 }
             }

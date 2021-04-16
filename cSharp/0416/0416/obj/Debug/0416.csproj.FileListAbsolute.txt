@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\bin\Debug\0416.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\bin\Debug\0416.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\bin\Debug\0416.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\0416.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\_0416.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\_0416.Form2.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\_0416.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\0416.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\0416.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\0416.exe
+C:\Users\KB\Desktop\가현\night\cSharp\0416\0416\obj\Debug\0416.pdb

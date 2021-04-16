@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\ManagingCar_Program.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\ManagingCar_Program.exe
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\ManagingCar_Program.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.exe
+C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\obj\Debug\ManagingCar_Program.pdb

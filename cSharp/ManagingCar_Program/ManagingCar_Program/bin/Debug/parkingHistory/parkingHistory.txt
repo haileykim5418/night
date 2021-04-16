@@ -1,0 +1,84 @@
+[2021-04-16 12:48:46]2번버튼클릭
+[2021-04-16 14:05:14]1번버튼클릭
+[2021-04-16 14:05:15]2번버튼클릭
+[2021-04-16 14:05:16]3번버튼클릭
+[2021-04-16 14:05:25]3번버튼클릭
+[2021-04-16 14:05:34]3번버튼클릭
+[2021-04-16 14:05:34]3번버튼클릭
+[2021-04-16 14:05:35]3번버튼클릭
+[2021-04-16 14:05:36]1번버튼클릭
+[2021-04-16 14:05:43]2번버튼클릭
+[2021-04-16 14:05:46]3번버튼클릭
+[2021-04-16 14:05:47]3번버튼클릭
+[2021-04-16 14:14:58]2번버튼클릭
+[2021-04-16 14:14:59]1번버튼클릭
+[2021-04-16 14:19:23]1번버튼클릭
+[2021-04-16 14:19:23]2번버튼클릭
+[2021-04-16 14:19:26]2번버튼클릭
+[2021-04-16 14:20:22]1번버튼클릭
+[2021-04-16 14:20:22]1번버튼클릭
+[2021-04-16 14:20:22]2번버튼클릭
+[2021-04-16 14:20:22]2번버튼클릭
+[2021-04-16 14:20:56]1번버튼클릭
+[2021-04-16 14:20:56]2번버튼클릭
+[2021-04-16 14:20:56]1번버튼클릭
+[2021-04-16 14:21:34]1번버튼클릭
+[2021-04-16 14:21:34]2번버튼클릭
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+[2021-04-16 16:34:58]1번버튼클릭
+[2021-04-16 16:34:59]2번버튼클릭
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
+'C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: ManagingCar_Program.DataManager.Load() 파일 C:\Users\KB\Desktop\가현\night\cSharp\ManagingCar_Program\ManagingCar_Program\DataManager.cs:줄 24
