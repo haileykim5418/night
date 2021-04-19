@@ -39,17 +39,148 @@ namespace ManagingCar_Program
 
         private void button1_Click(object sender, EventArgs e)
         {
-            writeLog("1번버튼클릭");
+           writeLog("주차버튼클릭");
+
+            if (textBox1.Text.Trim() == "") //trim은 공백제거함수.  만약 공간번호 텍스트박스가 공백일 경우
+            {
+                MessageBox.Show("주차공간을 입력하세요");
+                writeLog("주차공간을 입력하세요");
+            }
+            else if (textBox2.Text.Trim() == "")  //차량번호를 입력하지 않은 경우
+            {
+                MessageBox.Show("차 번호를 입력하세요");
+                writeLog("차 번호를 입력하세요");
+            }
+            else //본격적으로 입력하는 작업
+            {
+                try
+                {
+                    //참조변수와 람다(함수를 변수화시킬때)개념
+                    //싱글이라는 메소드 안에 이후 함수를 넣어. x=cars리스트에 있는 각 요소와 내가 입력한 값이 일치하면 그걸 비교
+                    ParkingCar car = DataManager.Cars.Single((x) => x.parkingSpot.ToString() == textBox1.Text);
+                    if (car.carNumber.Trim() != "") //carNumber가 공백이 아니라는건 이미 차 정보가 저장되어있다는것
+                    {
+                        MessageBox.Show("해당공간에는 이미 차 있음" + textBox1.Text);
+                        writeLog("해당공간에는 이미 차 있음" + textBox1.Text);
+                    }
+                    else //아직 차 정보 없음
+                    {
+
+                        car.parkingSpot = int.Parse(textBox1.Text);
+                        car.carNumber = textBox2.Text;
+                        car.driverName = textBox3.Text;
+                        car.phoneNumber = textBox4.Text;
+                        car.parkingTime = DateTime.Now;
+
+                        dataGridView1.DataSource = null;
+                        dataGridView1.DataSource = DataManager.Cars;
+                        DataManager.save();
+
+                        string contents = $"주차공간 {textBox1.Text}에 {textBox2.Text}차를 주차함";
+                        MessageBox.Show(contents);
+                        writeLog(contents, DateTime.Now.ToString("yyyy_MM_dd"));
+
+                    }
+
+                }
+                catch (Exception ex)
+                {
+
+                    string contents = "주차할 수 없습니다" + textBox1.Text;
+                    MessageBox.Show(contents);
+                    writeLog(contents);
+                    writeLog(ex.Message);
+                    writeLog(ex.StackTrace);
+                }
+               
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            writeLog("2번버튼클릭");
+            writeLog("출차버튼클릭");
+            if (textBox1.Text.Trim() =="")
+            {
+                MessageBox.Show("주차공간번호를 입력해주세요");
+                return;
+            }
+
+            //single없이 조회하고 해당하는 데이터 변경
+            try
+            {
+                for (int i = 0; i < DataManager.Cars.Count; i++)
+                {
+                    if (DataManager.Cars[i].parkingSpot.ToString()==textBox1.Text)
+                    {
+                        if (DataManager.Cars[i].carNumber.Trim()=="")
+                        {
+                            MessageBox.Show("아직 차 없음");
+                            writeLog("아직 차 없음");
+                            break;
+                        }
+                        else
+                        {
+                            DataManager.Cars[i].carNumber = "";
+                            DataManager.Cars[i].driverName = "";
+                            DataManager.Cars[i].phoneNumber = "";
+                            DataManager.Cars[i].parkingTime = DateTime.Now;
+                            string contents = $"주차공간 {textBox1.Text}에 {textBox2.Text}차량출차";
+                            MessageBox.Show(contents);
+                            writeLog(contents);
+                            dataGridView1.DataSource = null; //dataGridView1의 데이터를 한번 지워주고
+                            dataGridView1.DataSource = DataManager.Cars; //다시 리셋
+                            DataManager.save();
+                            break;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                writeLog("출차안됨");
+                writeLog(ex.Message);
+                writeLog(ex.StackTrace);
+            }
+            
         }
         private void button3_Click(object sender, EventArgs e)
         {
             //writeLog("3번버튼클릭");
-            writeLog("3번버튼클릭", DateTime.Now.ToString("yyyy_MM_dd")); //매개변수 값 아무거나 해주면 그대로 파일 만들어진다
+            writeLog("조회버튼클릭", DateTime.Now.ToString("yyyy_MM_dd")); //매개변수 값 아무거나 해주면 그대로 파일 만들어진다
+            if (textBox5.Text.Trim() == "")
+            {
+                MessageBox.Show("주차공간번호를 입력해주세요");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i < DataManager.Cars.Count; i++)
+                {
+                    if (DataManager.Cars[i].parkingSpot.ToString() == textBox5.Text) 
+                    {
+                        if (DataManager.Cars[i].carNumber.Trim() == "")
+                        {
+                            MessageBox.Show("차량이 없습니다.");
+                            break;
+                        }
+                        else
+                        {
+                            string contents = $"주차공간 {DataManager.Cars[i].parkingSpot}에 {DataManager.Cars[i].carNumber}차량이 있음";
+                            MessageBox.Show(contents);
+                            writeLog(contents);
+                            break;
+                        }                    
+                    }
+                }               
+            }
+           /* else
+            {
+                string contents = $"주차공간 {textBox1.Text}에 {textBox2.Text}차량이 있음";
+                MessageBox.Show(contents);
+                writeLog(contents);
+            }*/
+        
+        
         }
         private void writeLog(string contents)
         {
@@ -76,6 +207,33 @@ namespace ManagingCar_Program
             listBox1.Items.Insert(0, logContents);  
 
             DataManager.printLog(logContents,date);
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        { //셀 클릭할때마다 정보가 텍스트에 들어감
+            try
+            {//dataGridView1에서 내가현재 클릭한 행의 아이템을 파킹카의 데이터로 넣어
+                ParkingCar temp = dataGridView1.CurrentRow.DataBoundItem as ParkingCar;
+                textBox1.Text = temp.parkingSpot.ToString();
+                textBox2.Text = temp.carNumber;
+                textBox3.Text = temp.driverName;
+                textBox4.Text = temp.phoneNumber;
+                
+                textBox5.Text = temp.parkingSpot.ToString(); //그리드뷰에서 내가 클릭한 번호가 조회쪽 텍스트박스에 들어가게
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.StackTrace);
+                writeLog(ex.Message);
+                writeLog(ex.StackTrace);
+            }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
