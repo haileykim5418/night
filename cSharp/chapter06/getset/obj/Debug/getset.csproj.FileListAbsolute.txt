@@ -8,3 +8,13 @@ C:\Users\KB\Desktop\가현\night\cSharp\chapter06\getset\bin\Debug\getset.exe
 C:\Users\KB\Desktop\가현\night\cSharp\chapter06\getset\bin\Debug\getset.pdb
 C:\Users\KB\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.exe
 C:\Users\KB\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.pdb
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\bin\Debug\getset.exe.config
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\bin\Debug\getset.exe
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\bin\Debug\getset.pdb
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.csprojAssemblyReference.cache
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.Form1.resources
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.Properties.Resources.resources
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.csproj.GenerateResource.cache
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.csproj.CoreCompileInputs.cache
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.exe
+C:\Users\gahyeon\Desktop\가현\night\cSharp\chapter06\getset\obj\Debug\getset.pdb

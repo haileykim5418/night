@@ -1,0 +1,10 @@
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\bin\Debug\home0418_4.exe.config
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\bin\Debug\home0418_4.exe
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\bin\Debug\home0418_4.pdb
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.csprojAssemblyReference.cache
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.Form1.resources
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.Properties.Resources.resources
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.csproj.GenerateResource.cache
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.csproj.CoreCompileInputs.cache
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.exe
+C:\Users\gahyeon\Desktop\가현\night\c#\home0418\home0418_4\obj\Debug\home0418_4.pdb

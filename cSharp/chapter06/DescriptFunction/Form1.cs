@@ -181,11 +181,11 @@ namespace DescriptFunction
 
 
 
-            MyMath mm = new MyMath();
+           /* MyMath mm = new MyMath();
             mm.Power(input);
 
             MyMath.Power();
-            
+            */
         }
     }
 
