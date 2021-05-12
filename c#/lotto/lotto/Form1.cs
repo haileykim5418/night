@@ -25,63 +25,94 @@ namespace lotto
             int[] lotto = new int[7];            
             int rand = 0;
             int sum = 0;
+            lotto1 :
             for (int i = 0; i < lotto.Length; i++)
             {
                 rand = r.Next(1, 46);
                 lotto[i] = rand;
                 sum += lotto[i];
                 Console.WriteLine(lotto[i]);
-                /*Console.WriteLine(lotto[1]);
-                Console.WriteLine(lotto[2]);
-                Console.WriteLine(lotto[3]);
-                Console.WriteLine(lotto[4]);
-                Console.WriteLine(lotto[5]);*/
+               
 
                 for (int j = 0; j < i; j++)
                 {
                     if (lotto[i] == lotto[j])
-                    i--;
-                    sum -= lotto[i];
-
-
-                    /*num1.Text = r.Next(1, 45).ToString();                    
-                    num2.Text = r.Next(1, 45).ToString();
-                    num3.Text = r.Next(1, 45).ToString();
-                    num4.Text = r.Next(1, 45).ToString();
-                    num5.Text = r.Next(1, 45).ToString();
-                    num6.Text = r.Next(1, 45).ToString();*/
-                    
-
-                }
-            }
-
-            for (int i = 0; i < lotto.Length; i++)
-            {
-                num1.Text = lotto[0].ToString();
-                num2.Text = lotto[1].ToString();
-                num3.Text = lotto[2].ToString();
-                num4.Text = lotto[3].ToString();
-                num5.Text = lotto[4].ToString();
-                num6.Text = lotto[5].ToString();
-            }
-
-            //숫사순서 정렬방법1
-            // Array.Sort(lotto);
-
-            //숫사순서 정렬방법2
-            for (int i = 0; i < lotto.Length; i++)
-            {
-                for (int j = 0; j < lotto.Length-1; j++)
-                {
-                    if (lotto[j] > lotto[j + 1])
                     {
-                        int temp2 = lotto[j];
-                        lotto[j] = lotto[j + 1];
-                        lotto[j + 1] = temp2;
+                        i--;
+                        sum -= lotto[i];
+                    }
+                    if (lotto[0] > 34)
+                    {
+                        i = -1;
+                        sum = 0;
+                        break;
+                    }
+                    if (lotto[1] <3 && lotto[1] > 39)
+                    {
+                        i = 0;
+                        sum = 0;
+                        break;
+                    }
+                    if (lotto[2] <4 && lotto[2] > 45)
+                    {
+                        i = 1;
+                        sum = 0;
+                        break;
+                    }
+                    if (lotto[3] < 5 && lotto[3] > 45)
+                    {
+                        i = 2;
+                        sum = 0;
+                        break;
+                    }
+                    if (lotto[4] < 6 && lotto[4] > 45)
+                    {
+                        i = 3;
+                        sum = 0;
+                        break;
+                    }
+                    if (lotto[5] < 7 && lotto[5] > 45)
+                    {
+                        i = 4;
+                        sum = 0;
+                        break;
                     }
                 }
             }
 
+            //숫자순서 정렬방법1
+            // Array.Sort(lotto);
+
+            //숫자순서 정렬방법2
+            int temp = 0;
+            for (int i = 0; i < lotto.Length; i++)
+            {
+                for (int j = i+1; j < lotto.Length-1; j++)
+                {
+                    if (lotto[i] > lotto[j])
+                    {
+                        temp = lotto[i];
+                        lotto[i] = lotto[j];
+                        lotto[j] = temp;
+                    }
+                    if (lotto[i] < 100 && lotto[i] > 200  )
+                    {
+                        sum = 0;
+                        i = 0;
+                        goto lotto1;
+                    }                    
+                }
+                Console.WriteLine(lotto[0] + lotto[1] + lotto[2] + lotto[3] + lotto[4] + lotto[5]);
+            }
+
+            // 출력
+            num1.Text = lotto[0].ToString();
+            num2.Text = lotto[1].ToString();
+            num3.Text = lotto[2].ToString();
+            num4.Text = lotto[3].ToString();
+            num5.Text = lotto[4].ToString();
+            num6.Text = lotto[5].ToString();
+            num7.Text = lotto[6].ToString();
         }
     }
 }

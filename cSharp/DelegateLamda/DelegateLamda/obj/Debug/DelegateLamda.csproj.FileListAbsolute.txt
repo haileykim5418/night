@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.exe.config
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.exe
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.pdb
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.Form1.resources
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.Properties.Resources.resources
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.exe
+C:\Users\KB\Desktop\가현\night\cSharp\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.pdb
