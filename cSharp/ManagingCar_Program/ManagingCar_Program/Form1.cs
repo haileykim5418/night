@@ -60,7 +60,7 @@ namespace ManagingCar_Program
                     ParkingCar car = DataManager.Cars.Single((x) => x.parkingSpot.ToString() == textBox1.Text);
                     if (car.carNumber.Trim() != "") //carNumber가 공백이 아니라는건 이미 차 정보가 저장되어있다는것
                     {
-                        MessageBox.Show("해당공간에는 이미 차 있음" + textBox1.Text);
+                        MessageBox.Show("해당공간에는 이미 차량이 있습니다" + textBox1.Text);
                         writeLog("해당공간에는 이미 차 있음" + textBox1.Text);
                     }
                     else //아직 차 정보 없음
@@ -114,7 +114,7 @@ namespace ManagingCar_Program
                     {
                         if (DataManager.Cars[i].carNumber.Trim()=="")
                         {
-                            MessageBox.Show("아직 차 없음");
+                            MessageBox.Show("아직 차량이 없습니다");
                             writeLog("아직 차 없음");
                             break;
                         }
@@ -173,13 +173,8 @@ namespace ManagingCar_Program
                     }
                 }               
             }
-           /* else
-            {
-                string contents = $"주차공간 {textBox1.Text}에 {textBox2.Text}차량이 있음";
-                MessageBox.Show(contents);
-                writeLog(contents);
-            }*/
-        
+          
+            
         
         }
         private void writeLog(string contents)

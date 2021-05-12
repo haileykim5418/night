@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\KB\Desktop\가현\night\java_work\새 폴더\.metadata\.plugins\org.eclipse.jdt.core
+1169693499.index
