@@ -50,10 +50,13 @@ namespace wholesale
             // 
             // dataGridView_cus
             // 
+            this.dataGridView_cus.AllowUserToAddRows = false;
+            this.dataGridView_cus.AllowUserToDeleteRows = false;
             this.dataGridView_cus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_cus.Location = new System.Drawing.Point(22, 20);
             this.dataGridView_cus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView_cus.Name = "dataGridView_cus";
+            this.dataGridView_cus.ReadOnly = true;
             this.dataGridView_cus.RowHeadersWidth = 51;
             this.dataGridView_cus.RowTemplate.Height = 27;
             this.dataGridView_cus.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
