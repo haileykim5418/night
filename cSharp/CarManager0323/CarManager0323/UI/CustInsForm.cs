@@ -55,7 +55,7 @@ namespace CarManager0323.UI
                     cu_address.Text,
                     cu_email.Text);
                 list[0].Customer = cust;
-                oracle.insertCustomer(cust); //매개변수cust를 받는 메소드 새로 만들어줘야함
+                oracle.insertCustomer(cust);
                 Close();
             }
             catch (FormatException ex)

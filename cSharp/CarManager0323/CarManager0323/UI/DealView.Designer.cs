@@ -99,7 +99,7 @@ namespace CarManager0323.UI
             this.custDetail.Size = new System.Drawing.Size(136, 35);
             this.custDetail.TabIndex = 4;
             this.custDetail.Text = "고객상세정보";
-            this.custDetail.Click += new System.EventHandler(this.custDetail_Click);
+           /* this.custDetail.Click += new System.EventHandler(this.custDetail_Click);*/
             // 
             // dealViewC
             // 

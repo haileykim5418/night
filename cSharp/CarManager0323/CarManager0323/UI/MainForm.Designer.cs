@@ -37,9 +37,9 @@ namespace CarManager0323
             this.insertSalesman = new Sunny.UI.UIButton();
             this.insertDeal = new Sunny.UI.UIButton();
             this.exitProgram = new Sunny.UI.UIButton();
-            this.selectDeal = new Sunny.UI.UISymbolButton();
             this.appHelp = new Sunny.UI.UISymbolButton();
             this.createTable = new System.Windows.Forms.PictureBox();
+            this.select_deal = new Sunny.UI.UISymbolButton();
             ((System.ComponentModel.ISupportInitialize)(this.createTable)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,19 +141,6 @@ namespace CarManager0323
             this.exitProgram.Text = "프로그램종료";
             this.exitProgram.Click += new System.EventHandler(this.exitProgram_Click);
             // 
-            // selectDeal
-            // 
-            this.selectDeal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.selectDeal.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.selectDeal.Location = new System.Drawing.Point(605, 67);
-            this.selectDeal.MinimumSize = new System.Drawing.Size(1, 1);
-            this.selectDeal.Name = "selectDeal";
-            this.selectDeal.Size = new System.Drawing.Size(145, 35);
-            this.selectDeal.Symbol = 61717;
-            this.selectDeal.TabIndex = 10;
-            this.selectDeal.Text = "거래정보보기";
-            this.selectDeal.Click += new System.EventHandler(this.selectDeal_Click_1);
-            // 
             // appHelp
             // 
             this.appHelp.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -165,6 +152,7 @@ namespace CarManager0323
             this.appHelp.Symbol = 61738;
             this.appHelp.TabIndex = 11;
             this.appHelp.Text = "도움말";
+            this.appHelp.Click += new System.EventHandler(this.appHelp_Click);
             // 
             // createTable
             // 
@@ -177,13 +165,26 @@ namespace CarManager0323
             this.createTable.TabStop = false;
             this.createTable.Click += new System.EventHandler(this.createTable_Click);
             // 
+            // select_deal
+            // 
+            this.select_deal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.select_deal.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.select_deal.Location = new System.Drawing.Point(607, 67);
+            this.select_deal.MinimumSize = new System.Drawing.Size(1, 1);
+            this.select_deal.Name = "select_deal";
+            this.select_deal.Size = new System.Drawing.Size(143, 35);
+            this.select_deal.Symbol = 61564;
+            this.select_deal.TabIndex = 12;
+            this.select_deal.Text = "판매정보 보기";
+            this.select_deal.Click += new System.EventHandler(this.select_deal_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(749, 430);
+            this.Controls.Add(this.select_deal);
             this.Controls.Add(this.appHelp);
-            this.Controls.Add(this.selectDeal);
             this.Controls.Add(this.exitProgram);
             this.Controls.Add(this.insertDeal);
             this.Controls.Add(this.insertSalesman);
@@ -215,8 +216,8 @@ namespace CarManager0323
         private Sunny.UI.UIButton insertSalesman;
         private Sunny.UI.UIButton insertDeal;
         private Sunny.UI.UIButton exitProgram;
-        private Sunny.UI.UISymbolButton selectDeal;
         private Sunny.UI.UISymbolButton appHelp;
+        private Sunny.UI.UISymbolButton select_deal;
     }
 }
 

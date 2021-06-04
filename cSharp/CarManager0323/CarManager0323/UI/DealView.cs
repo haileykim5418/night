@@ -30,10 +30,10 @@ namespace CarManager0323.UI
             this.dHandler = dHandler;
         }
        
-        private void custDetail_Click(object sender, EventArgs e)
+       /* private void custDetail_Click(object sender, EventArgs e)
         {
             new CustDetailView().ShowDialog();
-        }
+        }*/
 
         private void dealViewC_Click(object sender, EventArgs e)
         {
@@ -44,25 +44,33 @@ namespace CarManager0323.UI
         {
             List<DealResult> list = oracle.selectDeal();
 
-           /* string[] data = { "1", "홍길동", "그랜저", "40000000", "전우치","21/3/31"};
-            dealList.Items.Add(new ListViewItem(data));*/
-
-            for (int i = 0; i < list.Count; i++)
+            try
             {
-                dealList.Items.Add(new ListViewItem(new string[]
-                    {list[i].Count.ToString(),
+                for (int i = 0; i < list.Count; i++)
+                {
+                    dealList.Items.Add(new ListViewItem(new string[]
+                        {list[i].Count.ToString(),
                         list[i].CustName,
                         list[i].Model,
                         list[i].Price,
                         list[i].SellName,
                         list[i].Date
-                    }));
+                        }));
+                }
+                setRowColor(dealList, Color.White, Color.LightGray);
+                int index = dealList.Items.Count - 1;
+                // listView.Items[index].Selected = true;
+                dealList.Items[index].Focused = true;
+                dealList.EnsureVisible(index);
             }
-            setRowColor(dealList, Color.White, Color.LightGray);
-            int index = dealList.Items.Count - 1;
-            // listView.Items[index].Selected = true;
-            dealList.Items[index].Focused = true;
-            dealList.EnsureVisible(index);
+            catch (Exception ee)
+            {
+
+                MessageBox.Show("모든 정보를 입력해주세요");
+                MessageBox.Show(ee.Message);
+                MessageBox.Show(ee.StackTrace);
+            }
+           
         }
 
         private void setRowColor(ListView list, Color color1, Color color2)

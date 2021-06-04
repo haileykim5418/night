@@ -114,10 +114,19 @@ namespace CarManager0323
             Application.Exit();
         }
 
-      
-        private void selectDeal_Click_1(object sender, EventArgs e)
+        private void appHelp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("프로그램 문의는 010-1111-2222(담당자: 홍길동)으로 연락 바랍니다");
+        }
+
+        private void select_deal_Click(object sender, EventArgs e)
         {
             new DealView(ora, dHandler).ShowDialog();
+        }
+
+        private void insertData_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

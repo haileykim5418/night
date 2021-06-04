@@ -345,7 +345,7 @@ namespace CarManager0323.DB
             }
         }
 
-        public void insertCustomer(Customer cust) //메소드 오버로딩
+        public void insertCustomer(Customer cust) 
         {
             try
             {
