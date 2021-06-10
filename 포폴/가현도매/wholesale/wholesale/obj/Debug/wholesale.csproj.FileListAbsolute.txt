@@ -46,3 +46,15 @@ C:\Users\KB\Desktop\가현\night\포폴\가현도매\wholesale\wholesale\obj\Deb
 C:\Users\KB\Desktop\가현\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\가현\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.exe
 C:\Users\KB\Desktop\가현\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.pdb
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\bin\Debug\wholesale.exe.config
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\bin\Debug\wholesale.exe
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\bin\Debug\wholesale.pdb
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.csprojAssemblyReference.cache
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.Customers.resources
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.Inventory.resources
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.Properties.Resources.resources
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.UI.Order.resources
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.csproj.GenerateResource.cache
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.csproj.CoreCompileInputs.cache
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.exe
+C:\Users\ahddl\Desktop\가현\Git\night\포폴\가현도매\wholesale\wholesale\obj\Debug\wholesale.pdb
